@@ -120,7 +120,7 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
 
 <h2 id="2020.12.29">2020.12.29</h2>  
 
-* 开天辟地第一版，脚本靠改，Docker现学现卖，能用。
+* 开天辟地第一版，脚本靠改，Docker现学现卖，仅实现基本功能。
 
 ---
 
