@@ -50,6 +50,7 @@
 TG机器人创建方法看[这里](#申请Telegram机器人)，获取自己ID方法看[这里](#获取自己ID)  
 
 **confih.json示例**
+
 ```
 {
 	"telegram_token":"TG机器人token",
@@ -60,6 +61,7 @@ TG机器人创建方法看[这里](#申请Telegram机器人)，获取自己ID方
 <h2 id="运行">运行</h2> 
 
 **linux**
+
 ```
 docker run -d \
 	--name tele-youtube-dl \
@@ -72,6 +74,7 @@ docker run -d \
 <h2 id="获取自己ID">获取自己ID</h2>  
 
 1. 点击[@getuseridbot](https://t.me/getuseridbot)，与@getuseridbot对话，发送`/start`，@getuseridbot会回复：
+
 ```
 用户ID
 
@@ -82,16 +85,19 @@ username : 用户名
 <h2 id="申请TG机器人">申请TG机器人</h2>  
 
 1. 点击[@BotFather](https://t.me/BotFather)，与@BotFather对话，发送`/newbot`，@BotFather会回复：
+
 ```
 Alright, a new bot. How are we going to call it? Please choose a name for your bot.
 ```
 
 2. 此时输入机器人昵称，可以中文可以英文 ，如：`陈二狗`，@BotFather会回复：
+
 ```
 Good. Now let's choose a username for your bot. It must end in `bot`. Like this, for example: TetrisBot or tetris_bot.
 ```
 
 3. 最后输入机器人的用户名，该用户名用于艾特机器人。用户名只能英文，后缀必须带`bot` ，如：`chengergou_bot`，@BotFather会回复：
+
 ```
 Done! Congratulations on your new bot. You will find it at 这里是机器人的额链接. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
 
@@ -103,6 +109,9 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
 ```
 
 4. 注意，在创建过程中可能出现用户名重复的问题，会提示你，根据回复走就行。
+
+
+
 
 <h2 id="机器人指令">机器人指令</h2>  
 
