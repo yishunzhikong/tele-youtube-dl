@@ -52,7 +52,7 @@
 <h2 id="配置文件">配置文件</h2>  
 
 机器人配置文件存放位置看[环境变量](#环境变量)，创建容器后会自动生成一个示例文件`config.json.simple`，重命名为`config.json`，打开`config.json`，在`telegram_token`后面添加TG的机器人token，在`user_chat_id`后面添加用户id，其中用户id可添加多个，用户之间用`,`隔开。  
-TG机器人创建方法看[这里](#申请Telegram机器人)，获取自己ID方法看[这里](#获取自己ID)  
+TG机器人创建方法看[这里](#申请TG机器人)，获取自己ID方法看[这里](#获取自己ID)  
 
 **confih.json示例**
 
