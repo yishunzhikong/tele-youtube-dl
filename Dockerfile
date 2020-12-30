@@ -5,8 +5,6 @@ FROM lsiobase/alpine.python3:latest as builder
 MAINTAINER yishunzhikong@163.com
 
 ADD ./ /root/
-RUN mkdir /root/conf
-RUN mkdir /downloads
 VOLUME ["/downloads","/root/conf"]
 
 RUN pip install --upgrade pip
